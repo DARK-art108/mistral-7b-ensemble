@@ -25,3 +25,15 @@ Data: Plug Any
 * Generate Embedding using using ```python ingest.py```
 * Run the model-cpu.py, it is tested in local so using ```chainlit run model-cpu.py -w --port 8080```
 * Run GPU version if you have enebled CUDA chailit is not availbale in gpu version.
+
+
+**New Addons**
+```(To solve Lost in Middle Problem) - 3 December 2023```
+
+1. EmbeddingClusterFilter
+2. EmbeddingRedundantFilter
+3. ContextualCompressionRetriever
+4. DocumentCompressorPipeline
+5. LongContextReorder
+6. MergerRetriever in place of EnsembleRetriver
+7. ChromaDB, removed FAISS
