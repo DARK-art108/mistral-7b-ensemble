@@ -37,3 +37,8 @@ Data: Plug Any
 5. LongContextReorder
 6. MergerRetriever in place of EnsembleRetriver
 7. ChromaDB, removed FAISS
+
+**29 December 2023**
+
+1. Tested Mixtral-8x7b-instruct-v0.1/MOE Model with existing pipeline.
+2. compression_retriver_reordered added with RetrivalQA Pipeline.
